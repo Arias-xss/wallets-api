@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "server:dev": "cd ./server && npm run start:dev",
+    "server:prod": "cd ./server && npm run start:prod",
+    "client:dev": "cd ./client && npm run dev -- --port 3001"
+  }
+}
